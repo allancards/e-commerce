@@ -65,6 +65,18 @@
     color: #d3d3d3;
 }
 
+#bottom-navbar-container .container {
+    justify-content: flex-end;
+}
+
+#bottom-navbar-container a {
+    font-weight: 600;
+}
+
+.navbar-toggler {
+    font-size: 1.5em;
+}
+
 @media (min-width: 768px) {
     .navbar-brand {
         text-align: left;
@@ -76,7 +88,7 @@
     }
 
     #search-form, #news-form  {
-        width: 50%;
+        width: 40%;
         margin: 0;
     }
 
@@ -84,4 +96,7 @@
         text-align: left;
     }
 
+    #bottom-navbar {
+        justify-content: center;
+    }
 }
