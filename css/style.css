@@ -1,3 +1,87 @@
 * {
     font-family: "Poppins", sans-serif;
 }
+
+#navbar .navbar-nav {
+    flex-direction: row;
+    justify-content: flex-start;
+}
+  
+#navbar .navbar-nav li {
+    margin-left: 1em;
+}
+  
+#navbar li {
+    position: relative;
+}
+  
+#navbar i {
+    font-size: 20px;
+}
+  
+#navbar span {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #FFD700;
+    text-align: center;
+}
+  
+#bag-item span {
+    left: 20px;
+}
+  
+.navbar-brand {
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+}
+  
+#navbar-items {
+    justify-content: space-between;
+}
+
+#search-form, #news-form {
+    width: 100%;
+    margin: 2em 0;
+    border: 2px solid #626262;
+    border-radius: 3px;
+    padding: 5px 15px;
+}
+
+#search-form input, #news-form  input {
+   background-color: transparent;
+   border: none;
+}
+
+#search-form input:focus, #news-form input:focus  {
+    box-shadow: none;
+}
+
+#search-form input::placeholder, #news-form input::placeholder {
+    color: #d3d3d3;
+}
+
+@media (min-width: 768px) {
+    .navbar-brand {
+        text-align: left;
+    }
+
+    #navbar-items {
+        min-width: 80%;
+        display: flex;
+    }
+
+    #search-form, #news-form  {
+        width: 50%;
+        margin: 0;
+    }
+
+    .navbar-brand {
+        text-align: left;
+    }
+
+}
