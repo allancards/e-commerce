@@ -118,7 +118,7 @@
 }
 
 .carousel-caption {
-    bottom: 5em;
+    bottom: 2em;
     padding: 1em;
     left: 12%;
     right: 12%;
@@ -135,7 +135,7 @@
     font-size: 18px;
     color: black;
     font-weight: 700;
-    width: 300px;
+    width: 100%;
     border-radius: 5px;
     margin-top: 0.8rem;
 }
@@ -260,6 +260,8 @@
     }
 
     .carousel-caption {
+        bottom: 8em;
+        padding: 1em;
         left: 22%;
         right: 22%;
     }
