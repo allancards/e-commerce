@@ -98,6 +98,12 @@
     flex: 1 1 var(--width);
 }
 
+#btn-buy {
+    width: 100px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
 @keyframes autoRun {
     from {
         left: 100%;
