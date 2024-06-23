@@ -232,6 +232,43 @@
     background-image: none;
 }
 
+#gallery .image-container {
+    background-size: cover;
+    background-position: center;
+    height: 325px;
+    cursor: pointer;
+    transition: .5s;
+    border: 3px solid #F0F8FF;
+}
+
+#gallery .image-container:hover {
+    border-color: #101010;
+}
+
+#img1 {
+    background-image: url('../img/product01.jpg');
+}
+
+#img2 {
+    background-image: url('../img/product02.jpg');
+}
+
+#img3 {
+    background-image: url('../img/product03.jpg');
+}
+
+#img4 {
+    background-image: url('../img/product04.jpg');
+}
+
+#img5 {
+    background-image: url('../img/product05.jpg');
+}
+
+#img6 {
+    background-image: url('../img/product06.jpg');
+}
+
 @media (min-width: 768px) {
     .navbar-brand {
         text-align: left;
