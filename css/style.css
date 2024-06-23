@@ -295,7 +295,7 @@
     padding-top: 10px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     transition: .4s;
-    /* background: #f2f2f2; */
+    background: #f2f2f2;
 }
 
 .content-news-products:hover {
@@ -329,17 +329,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 0;
+    padding: 0;
 }
 
 .content-news-products li {
-    padding-top: 5px;
+    padding: 5px;
 }
 
 .content-news-products .fa {
     font-size: 26px;
     transition: .4s;
-    margin: 3px;
 }
 
 .content-news-products .checked {
