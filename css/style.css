@@ -2,6 +2,11 @@
     font-family: "Poppins", sans-serif;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 #navbar .navbar-nav {
     flex-direction: row;
     justify-content: flex-start;
@@ -380,13 +385,13 @@
 }
 
 #newsletter-container {
-    border-bottom: 1px solid #626262;
     text-align: center;
-    padding: 20px;
+    padding: 0px;
+    margin: 0;
 }
 
 #news-form {
-    max-width: 600px;
+    max-width: 400px;
     margin: 15px auto;
 }
 
@@ -397,6 +402,44 @@
 #news-form .btn {
     background: #0b0b0b;
     color: #fff;
+}
+
+#container-footer {
+    background: #101010;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#container-footer ul {
+    list-style: none;
+}
+
+#container-footer li {
+    margin-bottom: 5px;
+}
+
+#container-footer ul > li > a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+#container-footer ul > li a:hover {
+    color: #b2bec3;
+}
+
+.icons-footer-sociais i {
+    font-size: 18px;
+    color: #fff;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.icons-footer-sociais i:hover {
+    color: #d3d3d3;
 }
 
 @media (min-width: 768px) {
@@ -452,6 +495,12 @@
     .content-news-products {
         width: 45%;
     }
+
+    #news-form {
+        max-width: 600px;
+        margin: 15px auto;
+    }
+
 }
 
 @media (min-width: 992px) {
