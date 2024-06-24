@@ -447,8 +447,8 @@ html, body {
     bottom: 20px;
     right: 30px;
     cursor: pointer;
-    height: 48px;
-    width: 48px;
+    height: 64px;
+    width: 64px;
     transition: 0.5s;
 }
 
