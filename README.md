@@ -12,7 +12,6 @@ Bem-vindo ao repositório do **E-commerce de Roupas**! Este projeto é uma aplic
 ## 🌟 Funcionalidades
 
 - Exibição de produtos de moda, incluindo descrições, imagens e preços.
-- Navegação entre categorias de produtos.
 - Carrinho de compras.
 - Design responsivo para uma experiência otimizada em dispositivos móveis.
 
