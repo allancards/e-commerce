@@ -26,7 +26,7 @@ Bem-vindo ao repositório do **E-commerce de Roupas**! Este projeto é uma aplic
 
 ## 📦 Instalação
 
-1. Clone este repositório: `git clone https://github.com/seu-usuario/nome-do-repositorio.git`
+1. Clone este repositório: `git clone https://github.com/ryannardelli/e-commerce.git`
 2. Navegue até o diretório do projeto: `cd nome-do-repositorio`
 3. Abra o arquivo `index.html` no navegador para visualizar o e-commerce.
 
