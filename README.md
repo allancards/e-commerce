@@ -19,10 +19,9 @@ Bem-vindo ao repositório do **E-commerce de Roupas**! Este projeto é uma aplic
 ## 📂 Estrutura do Projeto
 
 - **index.html**: Página principal com exibição dos produtos.
-- **style.css**: Arquivo de estilos customizados.
-- **index.js**: Lógica para interatividade e manipulação do DOM.
+- **css/style.css**: Arquivo de estilos customizados.
+- **js/index.js**: Lógica para interatividade e manipulação do DOM.
 - **/img**: Contém imagens e outros recursos estáticos.
-- **/bootstrap**: Arquivos do framework Bootstrap.
 
 ## 📦 Instalação
 
