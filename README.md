@@ -28,6 +28,10 @@ Bem-vindo ao repositório do **E-commerce de Roupas**! Este projeto é uma aplic
 2. Navegue até o diretório do projeto: `cd nome-do-repositorio`
 3. Abra o arquivo `index.html` no navegador para visualizar o e-commerce.
 
+## 🌐 Acesso Online
+O projeto está hospedado. Você pode acessá-lo através do seguinte link:
+[Planejador de Viagem - Acesse Aqui](https://marvelous-phoenix-5213f9.netlify.app/)
+
 ## 🤝 Contribuições
 
 Contribuições são bem-vindas! Se você tiver sugestões de melhorias ou novas funcionalidades, sinta-se à vontade para abrir uma *issue* ou enviar um *pull request*.
