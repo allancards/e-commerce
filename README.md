@@ -30,7 +30,7 @@ Bem-vindo ao repositório do **E-commerce de Roupas**! Este projeto é uma aplic
 
 ## 🌐 Acesso Online
 O projeto está hospedado. Você pode acessá-lo através do seguinte link:
-[Planejador de Viagem - Acesse Aqui](https://ryannardelli.github.io/e-commerce/)
+[Ecommerce - Acesse Aqui](https://ryannardelli.github.io/e-commerce/)
 
 ## 🤝 Contribuições
 
