@@ -156,12 +156,12 @@ html, body {
 }
 
 .swiper-slide {
+    background-color: #eee;
     background-position: center;
     background-size: cover;
     width: 320px;
     box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
     filter: blur(4px);
-    background: #eee;
     border-radius: 10px;
 }
 
@@ -469,10 +469,6 @@ html, body {
     #search-form, #news-form  {
         width: 40%;
         margin: 0;
-    }
-
-    .navbar-brand {
-        text-align: left;
     }
 
     #bottom-navbar {

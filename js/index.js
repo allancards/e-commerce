@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // SWIPER SLIDER
-var swiper = new Swiper(".mySwiper", {
+const swiper = new Swiper(".mySwiper", {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
@@ -24,3 +24,21 @@ var swiper = new Swiper(".mySwiper", {
     },
     loop: true,
   });
+
+// NAVEGAÇÃO COM SCROLL SUAVE
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+
+          const targetId = this.getAttribute('href');
+          if (targetId.length > 1) {
+            const targetElement = document.querySelector(targetId);
+
+            if (targetElement) {
+                targetElement.scrollIntoView({ behavior: 'smooth' });
+            }
+          }
+      });
+  });
+});
